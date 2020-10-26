@@ -14,6 +14,7 @@ export const HeaderStyled = styled.header`
 `
 
 export const Logo = styled.div`
+    cursor: pointer;
     img {
         height: 50px;
     }

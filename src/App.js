@@ -1,12 +1,12 @@
 import React from "react"
 import GlobalStyle from "./style/GlobalStyle"
 import "./fonts/fonts.css"
-import Header from "./components/Header/Header";
+import HeaderContainer from "./components/Header/HeaderContainer"
 
 const App = () => (
     <>
         <GlobalStyle/>
-        <Header/>
+        <HeaderContainer/>
     </>
 )
 

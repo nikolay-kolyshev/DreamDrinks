@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledBasket = styled.div`
     display: flex;
     align-items: center;
+    cursor: pointer;
     
     img {
         height: 50px;
@@ -15,5 +16,5 @@ export const StyledBasket = styled.div`
 
 export const TotalCost = styled.div`
     font-size: 24px;
-    margin-left: 10px;
+    margin-left: 10px;в
 `

@@ -5,7 +5,7 @@ import {StyledBasket, TotalCost} from "./style";
 const Basket = props => (
     <StyledBasket>
         <img src={basket}/>
-        <TotalCost>₽1500</TotalCost>
+        <TotalCost>{`${props.totalCost.currency}${props.totalCost.count}`}</TotalCost>
     </StyledBasket>
 )
 
